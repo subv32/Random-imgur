@@ -33,7 +33,7 @@ imgur () {
   		echo "Downloading $file"
         	wget -q $file 
 		echo $file >> /tmp/imgur.tmp
-		#wget -q -O- http://blamend.com/post.php?url=$file
+		#wget -q -O- http://blamend.com/create.php?url=$file
 	done
 }
 
